@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { connect } from 'redux';
+import { connect } from 'react-redux';
 
 class WeatherList extends Component {
   render() {
