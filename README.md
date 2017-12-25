@@ -21,5 +21,7 @@ Click [here](https://github.com/mlwebdev-react/) then download the .zip file.  E
 
 ```
 > npm install
+> ####Or yarn install
 > npm start
+> ####Or yarn start
 ```
