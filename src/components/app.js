@@ -8,5 +8,5 @@ export default class App extends Component {
         <SearchBar />
       </div>
     );
-  }
-}
+  };
+};
