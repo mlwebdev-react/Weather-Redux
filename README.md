@@ -11,7 +11,7 @@ Checkout this repo, install dependencies, then start the gulp process with the f
 
 ```
 > git clone https://github.com/mlwebdev-react/Weather-Redux.git
-> cd ReduxSimpleStarter
+> cd Weather-Redux
 > npm install
 > npm start
 ```
