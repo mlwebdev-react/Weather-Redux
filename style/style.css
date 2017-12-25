@@ -10,3 +10,8 @@ td, th {
 svg {
   height: 150px;
 }
+
+td:first-of-type, td:first-child > div {
+  height: 200px;
+  width: 200px;
+}
