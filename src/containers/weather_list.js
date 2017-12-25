@@ -18,14 +18,14 @@ class WeatherList extends Component {
       .map(weather => weather.main.humidity);
 
     const {lon, lat} = cityData.city.coord;
-    
-    const faren = <span>&#8457;</span>;
+
+    const fahren = <span>&#8457;</span>;
 
 
     return (
       <tr key={name}>
         <td><GoogleMap lon={lon} lat={lat}/></td>
-        <td><Chart data={temps} color="orange" units={faren} /></td>
+        <td><Chart data={temps} color="orange" units={fahren} /></td>
         <td><Chart data={pressures} color="green" units="hPa" /></td>
         <td><Chart data={humidities} color="black" units="%" /></td>
       </tr>
